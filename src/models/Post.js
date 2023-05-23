@@ -26,7 +26,7 @@ module.exports = (sequelize) => {
         type: DataTypes.JSON,
       },
       detail: {
-        type: DataTypes.TEXT,
+        type: DataTypes.TEXT("tiny"),
       },
     },
     {
